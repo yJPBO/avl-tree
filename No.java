@@ -1,7 +1,6 @@
 package arvoreAVL;
 
 public class No {
-	
 	private int info;
 	private No direita;
 	private No esquerda;
