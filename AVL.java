@@ -337,6 +337,7 @@ public class AVL {
 			this.raiz = novaraizfilho;
 		}
 	}
+	
 	private void rotacaoEsquerdaDireita(No crit) {
 		No raizfilho = crit.getDireita();
 		No novaraizfilho = raizfilho.getEsquerda();
